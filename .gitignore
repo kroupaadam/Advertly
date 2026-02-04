@@ -1,0 +1,6 @@
+.vercel
+node_modules/
+.env
+backend/.env
+advertly/.env
+.DS_Store

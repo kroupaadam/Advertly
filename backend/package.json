@@ -1,0 +1,28 @@
+{
+  "name": "advertly-backend",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Advertly Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env server.js",
+    "reset-db": "node --env-file=.env scripts/resetDatabase.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^8.0.0",
+    "nodemailer": "^6.9.7",
+    "openai": "^4.52.0",
+    "pino": "^10.2.1",
+    "pino-pretty": "^13.1.3",
+    "twilio": "^5.11.1",
+    "zod": "^3.25.76"
+  }
+}
